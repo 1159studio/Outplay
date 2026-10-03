@@ -152,3 +152,42 @@ offset_top = 350.0
 offset_right = 270.0
 offset_bottom = 400.0
 text = "CANCEL"
+
+[node name="Player1Energy" type="Label" parent="." unique_id=2012188975]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 32.0
+offset_right = 45.0
+offset_bottom = 55.0
+
+[node name="DecisionPanel" type="Panel" parent="." unique_id=1869766238]
+visible = false
+layout_mode = 0
+offset_left = 158.0
+offset_top = 301.0
+offset_right = 478.0
+offset_bottom = 401.0
+
+[node name="DecisionTimerLabel" type="Label" parent="DecisionPanel" unique_id=2127011318]
+layout_mode = 0
+offset_left = 125.0
+offset_right = 165.0
+offset_bottom = 25.0
+text = "15"
+horizontal_alignment = 1
+
+[node name="DiscloseButton" type="Button" parent="DecisionPanel" unique_id=857977186]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 45.0
+offset_right = 275.0
+offset_bottom = 80.0
+text = "DISCLOSE"
+
+[node name="ChallengeButton" type="Button" parent="DecisionPanel" unique_id=82286202]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 45.0
+offset_right = 126.0
+offset_bottom = 80.0
+text = "CHALLENGE"
